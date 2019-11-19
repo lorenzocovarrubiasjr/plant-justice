@@ -1,16 +1,10 @@
-.sign-in {
-    width: 380px;
+.sign-up {
     display: flex;
     flex-direction: column;
+    width: 380px;
 
     .title {
         margin: 8px 0;
         font-family: 'Open Sans Condensed', sans-serif;
-    }
-
-    .buttons {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
     }
 }
