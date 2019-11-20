@@ -3,19 +3,19 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Plants',
+    routeName: 'plants',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
+        name: 'Snake Plant',
         // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        imageUrl: "/images/shop-img/hats/brown-brim.png",
-        price: 25
+        imageUrl: "http://www.whiteflowerfarm.com/mas_assets/cache/image/3/e/0/4/15876.Jpg",
+        price: 10
       },
       {
         id: 2,
-        name: 'Blue Beanie',
+        name: 'Bamboo Palm',
         // imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
         imageUrl: "/images/shop-img/hats/blue-beanie.png",
         price: 18

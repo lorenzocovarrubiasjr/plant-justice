@@ -2,11 +2,11 @@
 
 const SECTIONS_DATA = [
     {
-        title: 'hats',
+        title: 'plants',
         // imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-        imageUrl: 'images/hats.png', // local file in public/images/
+        imageUrl: 'https://youhadmeatgardening.com/wp-content/uploads/2019/11/palm-leaves.jpg', // local file in public/images/
         id: 1,
-        linkUrl: 'shop/hats'
+        linkUrl: 'shop/plants'
 
     },
     {
