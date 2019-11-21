@@ -23,12 +23,25 @@
         width: 23%;
     }
 
+    
+
     .quantity {
-        padding-left: 20px;
+        display: flex;
+
+        .arrow {
+            color: green;
+            cursor: pointer;
+        }
+
+        .value {
+            margin: 0 10px;
+        }
     }
 
-    .remove-button {
+    .remove {
+        color: red;
         padding-left: 12px; 
         cursor: pointer;
+        height: 15%;
     }
 }
