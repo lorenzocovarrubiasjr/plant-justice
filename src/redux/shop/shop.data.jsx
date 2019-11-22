@@ -7,7 +7,6 @@ const SHOPDATA = [
         {
           id: 1,
           name: 'Snake Plant',
-          // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
           imageUrl: "http://www.whiteflowerfarm.com/mas_assets/cache/image/3/e/0/4/15876.Jpg",
           price: 10
       },
