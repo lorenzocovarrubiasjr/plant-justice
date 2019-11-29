@@ -4,7 +4,7 @@ const INITIAL_STATE = {
           title: 'plants',
           imageUrl: 'https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-slaurentii_terracotta_4_1024x1024.jpg?v=1537308389',
           id: 1,
-          linkUrl: 'shop'
+          linkUrl: 'shop/plants'
         },
         {
           title: 'design',

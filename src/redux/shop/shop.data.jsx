@@ -1,5 +1,5 @@
-const SHOPDATA = [
-    {
+const SHOP_DATA = {
+    plants: {
       id: 1,
       title: 'Plants',
       routeName: 'plants',
@@ -9,58 +9,58 @@ const SHOPDATA = [
           name: 'Snake Plant',
           imageUrl: "http://www.whiteflowerfarm.com/mas_assets/cache/image/3/e/0/4/15876.Jpg",
           price: 10
-      },
-      {
-        id: 2,
-        name: 'Spider Plant',
-        imageUrl: 'https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/11/spider-plant-indoors.jpg',
-        price: 18
-      },
-      {
-        id: 3,
-        name: 'Bamboo Palm',
-        imageUrl: 'https://s3-production.bobvila.com/slides/3191/original/bamboo_palm.jpeg?1535662309',
-        price: 35
-      },
-      {
-        id: 4,
-        name: 'Boston Fern',
-        imageUrl: 'http://www.gardeningknowhow.com/wp-content/uploads/2010/06/boston-fern-indoors1.jpg',
-        price: 25
-      },
-      {
-        id: 5,
-        name: 'Peace Lily',
-        imageUrl: 'https://images.hellogiggles.com/uploads/2018/04/06132126/peace-lily.jpg',
-        price: 18
-      },
-      {
-        id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
-      },
-      {
-        id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
-      },
-      {
-        id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
-      }
-    ]
+        },
+        {
+          id: 2,
+          name: 'Spider Plant',
+          imageUrl: 'https://balconygardenweb-lhnfx0beomqvnhspx.netdna-ssl.com/wp-content/uploads/2018/11/spider-plant-indoors.jpg',
+          price: 18
+        },
+        {
+          id: 3,
+          name: 'Bamboo Palm',
+          imageUrl: 'https://s3-production.bobvila.com/slides/3191/original/bamboo_palm.jpeg?1535662309',
+          price: 35
+        },
+        {
+          id: 4,
+          name: 'Boston Fern',
+          imageUrl: 'http://www.gardeningknowhow.com/wp-content/uploads/2010/06/boston-fern-indoors1.jpg',
+          price: 25
+        },
+        {
+          id: 5,
+          name: 'Peace Lily',
+          imageUrl: 'https://images.hellogiggles.com/uploads/2018/04/06132126/peace-lily.jpg',
+          price: 18
+        },
+        {
+          id: 6,
+          name: 'Palm Tree Cap',
+          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
+          price: 14
+        },
+        {
+          id: 7,
+          name: 'Red Beanie',
+          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
+          price: 18
+        },
+        {
+          id: 8,
+          name: 'Wolf Cap',
+          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+          price: 14
+        },
+        {
+          id: 9,
+          name: 'Blue Snapback',
+          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+          price: 16
+        }
+      ]
   },
-  {
+  sneakers :{
     id: 2,
     title: 'Sneakers',
     routeName: 'sneakers',
@@ -115,7 +115,7 @@ const SHOPDATA = [
       }
     ]
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,6 +152,6 @@ const SHOPDATA = [
       }
     ]
   }
-]
+};
 
-export default SHOPDATA;
+export default SHOP_DATA;
